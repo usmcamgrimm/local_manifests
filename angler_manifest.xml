@@ -7,6 +7,7 @@
   <remove-project name="device_motorola_shamu" />
   <remove-project name="kernel_google_marlin" />
   <remove-project name="kernel_motorola_shamu" />
+  <remove-project name="vendor_google_devices" />
   <remove-project name="vendor_motorola" />
   <remove-project name="vendor_shamugapps" />
   </manifest>
