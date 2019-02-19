@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+	mkdir -p .repo/local_manifests && curl -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/usmcamgrimm/local_manifests/master/crosshatch_aquarios_manifest.xml
+-->
+
+  <remote name="grimm"
+  		  fetch="https://github.com/usmcamgrimm/" />
+
+  <!-- Removals -->
+  <remove-project name="device_huawei_angler" />
+  <remove-project name="kernel_huawei_angler" />
+  <remove-project name="proprietary_vendor_huawei" />
+  <remove-project name="device_lge_bullhead" />
+  <remove-project name="kernel_lge_bullhead" />
+  <remove-project name="vendor_lge_bullhead" />
+  <remove-project name="device_google_taimen" />
+  <remove-project name="device_google_wahoo" />
+  <remove-project name="kernel_google_wahoo" />
+  <remove-project name="device_google_walleye" />
+  <remove-project name="device_google_crosshatch" />
+
+  <!-- Crosshatch -->
+  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="grimm" revision="a9" />
