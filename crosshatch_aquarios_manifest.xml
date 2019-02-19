@@ -22,3 +22,5 @@
 
   <!-- Crosshatch -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="grimm" revision="a9" />
+
+</manifest>
