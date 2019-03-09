@@ -18,9 +18,9 @@
   <remove-project name="device_google_wahoo" />
   <remove-project name="kernel_google_wahoo" />
   <remove-project name="device_google_walleye" />
-  <remove-project name="device_google_crosshatch" />
+  <!-- <remove-project name="device_google_crosshatch" /> -->
 
   <!-- Crosshatch -->
-  <project path="device/google/crosshatch" name="device_google_crosshatch" remote="grimm" revision="a9" />
+  <!-- <project path="device/google/crosshatch" name="device_google_crosshatch" remote="grimm" revision="a9" /> -->
 
 </manifest>
